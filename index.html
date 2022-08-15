@@ -12,40 +12,81 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" </head>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+</head>
 
 <body>
   <div class="container">
-    <h1 class="logo">Phonie</h1>
-    <div class="title">
-      <h3>Welcome back!</h3>
-      <p>Welcome back! Please enter your details</p>
+    <div class="card">
+      <main class="infoSection">
+        <div class="slideshow">
+          <div class="slide">
+            <h1>One-Step Recharge</h1>
+            <p>
+              With phonie, you have quick and dependable access to airtime and
+              data when you need it, with ease. No network issues, no
+              downtimes. We've got you.
+            </p>
+          </div>
+          <div class="slide">
+            <h1>Your needs met at the tap of a button</h1>
+            <p>
+              Whether it be your data or airtime needs, Phonie ensures that
+              you have it when you need it.
+            </p>
+          </div>
+          <div class="slide">
+            <h1>Discounts like no other</h1>
+            <p>
+              We have got you. Periodically we offer discounts your network
+              provider won't offer.
+            </p>
+          </div>
+        </div>
+      </main>
+      <main class="formSection">
+        <div class="formRelative">
+          <h1 class="logo">Phonie</h1>
+          <div class="title">
+            <h3>Welcome back!</h3>
+            <p>Welcome back! Please enter your details</p>
+          </div>
+          <form class="form">
+            <div class="formField">
+              <label for="firstName">First Name</label>
+              <input type="text" name="firstName" id="firstName" />
+            </div>
+            <div class="formField">
+              <label for="lastName">Last Name</label>
+              <input type="text" name="lastname" id="lastname" />
+            </div>
+            <div class="formField">
+              <label for="emailAddress">Email Address</label>
+              <input type="email" name="emailAddress" id="emailAddress" />
+            </div>
+            <div class="phoneField">
+              <section id="logoCard" class="image"></section>
+              <label for="number">Phone Number</label>
+              <input type="tel" class="form-control" required />
+            </div>
+            <div class="errorMessages">
+              <p class="inputError">Input numbers only</p>
+            </div>
+            <div class="errorMessages">
+              <p class="unknownNumber">Incomplete phone number</p>
+            </div>
+            <div class="formField">
+              <button id="submitBtn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </main>
     </div>
-    <form class="form">
-      <div class="formField">
-        <label for="firstName">First Name</label>
-        <input type="text" name="firstName" id="firstName" />
-      </div>
-      <div class="formField">
-        <label for="lastName">Last Name</label>
-        <input type="text" name="lastname" id="lastname" />
-      </div>
-      <div class="formField">
-        <label for="emailAddress">Email Address</label>
-        <input type="email" name="emailAddress" id="emailAddress" />
-      </div>
-      <div class="formField">
-        <label for="phoneNumber">Phone Number</label>
-        <input type="number" name="phoneNumber" id="phoneNumber" />
-      </div>
-      <div class="formField">
-        <button>Submit</button>
-      </div>
-    </form>
   </div>
-
-
-
   <!-- // ============= EEND DO NOT EDIT ============== // -->
   <script src="index.mjs" type="module"></script>
   <!-- // ============= EEND DO NOT EDIT ============== // -->
